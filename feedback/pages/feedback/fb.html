@@ -1,0 +1,21 @@
+<div class="container">
+   <table class="table">
+      <thead>
+         <tr>
+           <th>Email</th>
+           <th>Comment</th>
+         </tr>
+      </thead>
+
+      <tbody>
+         {% for row in rows %}
+         <tr>
+            <td>{{ row["email"] }}</td>
+            <td>{{ row["comment"] }}</td>
+         </tr>
+         {% endfor %}
+      </tbody>
+   </table>
+</div>
+
+<a href = "/">Go back to home page</a>

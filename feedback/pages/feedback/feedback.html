@@ -1,0 +1,12 @@
+{% extends 'layouts/base.html' %}
+{% block title %} Feedback {% endblock %}
+
+{% block content %}
+<h1> Feedback </h1>
+<p class="lead">Feedback</p>
+
+{% include 'feedback/form.html' %}
+
+{% endblock %}
+
+{% block footer %} {% include 'layouts/footer.html' %} {% endblock %}
